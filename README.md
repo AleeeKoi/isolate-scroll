@@ -23,6 +23,10 @@ This library prevent scroll on wheel and thouch event.
 
 Isolate Scroll supports all browsers that are [ES5-compliant] (http://kangax.github.io/compat-table/es5/) (IE8 and below are not supported).
 
+### Mobile support
+
+Isolate Scroll also prevent parent scroll in mobile browsers.
+
 ---
 
 ### Installing
