@@ -98,6 +98,14 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
+/*!
+ * Isolate Scroll v 1.0.1
+ * https://github.com/AleeeKoi/isolate-scroll
+ *
+ * Copyright Alessandro Pellizzari <aleeekoi@hotmail.it>
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ */
 var IsolateScroll =
 /*#__PURE__*/
 function () {
@@ -218,6 +226,8 @@ function () {
     return new IsolateScroll(target);
   };
 })(window);
+
+/* harmony default export */ var src = __webpack_exports__["default"] = (IsolateScroll);
 
 /***/ })
 /******/ ]);

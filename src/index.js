@@ -1,13 +1,4 @@
 
-/**
- * Isolate Scroll v 1.0.0
- * https://github.com/AleeeKoi/isolate-scroll
- *
- * Copyright Alessandro Pellizzari <aleeekoi@hotmail.it>
- * Released under the MIT license
- * http://opensource.org/licenses/MIT
- */
-
 import _IsolateScroll from './isolateScroll';
 
 // Expose globally
@@ -16,3 +7,5 @@ import _IsolateScroll from './isolateScroll';
     return new _IsolateScroll(target);
   };
 })(window);
+
+export default _IsolateScroll;

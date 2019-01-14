@@ -1,4 +1,13 @@
 
+/*!
+ * Isolate Scroll v 1.0.1
+ * https://github.com/AleeeKoi/isolate-scroll
+ *
+ * Copyright Alessandro Pellizzari <aleeekoi@hotmail.it>
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ */
+
 export default class IsolateScroll {
 
   constructor (target) {

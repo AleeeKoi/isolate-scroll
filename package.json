@@ -1,6 +1,6 @@
 {
   "name": "isolate-scroll",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small no-dependency Javascript lib for prevent browser to scroll parent container on wheel or touch event",
   "main": "dist/isolateScroll.js",
   "devDependencies": {
