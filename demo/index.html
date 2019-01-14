@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Demo - isolate-scroll</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: sans-serif;
+        height: 300vh;
+        background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
+      }
+      .title {
+        font-family: 'Coiny', cursive;
+      }
+      .modal {
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 380px;
+        margin-left: -190px;
+        height: 50vh;
+        margin-top: -25vh;
+      }
+      .container {
+        text-align: justify;
+        height: 180px;
+        background: lightgreen;
+        overflow: auto;
+        padding: 0 5px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="modal">
+      <h1 class="title">Isolate Scroll</h1>
+      <p>
+        If you scroll inside following text, parent container (in this case the body) doesn't move.
+      </p>
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus arcu mi, luctus ac elit sed, fermentum congue massa. Morbi quis vestibulum lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et porta nisi. Suspendisse gravida dignissim lorem, ut laoreet dui malesuada id. Proin ut felis ut nisi iaculis rhoncus sed at ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+        <p>
+          Nam porta venenatis elit, non tristique augue. Aliquam quis accumsan metus, ac dapibus nisi. Aliquam eget tincidunt nisi, ut rhoncus velit. Nulla porta urna vel laoreet vestibulum. Fusce dignissim neque vitae nisi mollis ornare. Vestibulum feugiat vulputate nulla, at maximus lacus commodo vitae. In urna leo, ultrices sit amet auctor eget, placerat in turpis. Sed posuere est ligula, non facilisis nunc lobortis ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eleifend tincidunt laoreet. Donec at sapien ut quam molestie consectetur ut vitae ante.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      (function(w) {
+        w.addEventListener('load', function () {
+          IsolateScroll('.container');
+        }, true);
+      })(window);
+    </script>
+
+  <script type="text/javascript" src="isolateScroll.js"></script></body>
+</html>

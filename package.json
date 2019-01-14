@@ -1,0 +1,46 @@
+{
+  "name": "isolate-scroll",
+  "version": "1.0.0",
+  "description": "A small no-dependency Javascript lib for prevent browser to scroll parent container on wheel or touch event",
+  "main": "dist/isolateScroll.js",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.0",
+    "eslint": "^5.12.0",
+    "eslint-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "lodash": "^4.17.11",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --config webpack.dev.js",
+    "build": "webpack --config webpack.demo.js && webpack --config webpack.prod.js",
+    "build:demo": "webpack --config webpack.demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleeeKoi/isolate-scroll.git"
+  },
+  "keywords": [
+    "scroll",
+    "lock",
+    "prevent",
+    "propagation",
+    "js",
+    "javascript"
+  ],
+  "author": "Alessandro Pellizzari <aleeekoi@hotmail.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AleeeKoi/isolate-scroll/issues"
+  },
+  "homepage": "https://github.com/AleeeKoi/isolate-scroll#readme"
+}
