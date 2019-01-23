@@ -99,7 +99,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 /*!
- * Isolate Scroll v 1.0.1
+ * Isolate Scroll v 1.0.2
  * https://github.com/AleeeKoi/isolate-scroll
  *
  * Copyright Alessandro Pellizzari <aleeekoi@hotmail.it>

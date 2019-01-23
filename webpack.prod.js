@@ -13,7 +13,10 @@ module.exports = merge(common, {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
+    library: libraryName,
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   mode: 'production',
   devtool: 'source-map',

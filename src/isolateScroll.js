@@ -1,6 +1,6 @@
 
 /*!
- * Isolate Scroll v 1.0.1
+ * Isolate Scroll v 1.0.2
  * https://github.com/AleeeKoi/isolate-scroll
  *
  * Copyright Alessandro Pellizzari <aleeekoi@hotmail.it>

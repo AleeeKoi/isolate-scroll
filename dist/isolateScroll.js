@@ -1,4 +1,14 @@
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define("isolateScroll", [], factory);
+	else if(typeof exports === 'object')
+		exports["isolateScroll"] = factory();
+	else
+		root["isolateScroll"] = factory();
+})(window, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -99,7 +109,7 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 /*!
- * Isolate Scroll v 1.0.1
+ * Isolate Scroll v 1.0.2
  * https://github.com/AleeeKoi/isolate-scroll
  *
  * Copyright Alessandro Pellizzari <aleeekoi@hotmail.it>
@@ -231,4 +241,5 @@ function () {
 
 /***/ })
 /******/ ]);
+});
 //# sourceMappingURL=isolateScroll.js.map
